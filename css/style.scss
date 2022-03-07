@@ -181,6 +181,39 @@ main {
     }
 }
 
+@media only screen and (max-width: 400px) {
+    main header {
+        padding: 30px;
+        @include flexCenter(column);
+        gap: 15px;
+        h1 {
+            position: relative;
+        }
+        &::after {
+            content: "";
+            position: absolute;
+            top: 110px;
+            width: 85%;
+            height: 1px;
+            background-color: white;
+        }
+        .right {
+            justify-content: space-between;
+            width: 100%;
+        }
+    }
+    main section {
+        @include gridCenter();
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        width: 100%;
+        padding: 30px;
+    }
+    main .overview {
+        padding: 30px;
+        display: block;
+    }
+}
 
 
 .attribution { font-size: 11px; text-align: center; position: absolute; bottom: 0;display: none;}

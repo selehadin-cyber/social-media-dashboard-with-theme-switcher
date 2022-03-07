@@ -205,6 +205,46 @@ main .dashboard2 .card2 > div:nth-child(2) .red {
   color: var(--Bright-Red);
 }
 
+@media only screen and (max-width: 400px) {
+  main header {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+  }
+  main header h1 {
+    position: relative;
+  }
+  main header::after {
+    content: "";
+    position: absolute;
+    top: 110px;
+    width: 85%;
+    height: 1px;
+    background-color: white;
+  }
+  main header .right {
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  main section {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    padding: 30px;
+  }
+
+  main .overview {
+    padding: 30px;
+    display: block;
+  }
+}
 .attribution {
   font-size: 11px;
   text-align: center;
