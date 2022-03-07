@@ -97,7 +97,7 @@ main section {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 23px;
   width: 100%;
-  padding: 41px 150px 41px 150px;
+  padding: 3px 150px 41px 150px;
 }
 main section .card {
   background-color: var(--Dark-Desaturated-Blue-Card-BG);
@@ -106,8 +106,8 @@ main section .card {
   align-items: center;
   flex-direction: column;
   gap: 20px;
-  padding: 10px;
-  border-top-width: 5px;
+  padding: 20px;
+  border-top-width: 3px;
   border-top-style: solid;
   border-color: var(--Facebook);
   width: 100%;
@@ -143,11 +143,11 @@ main section .card div:nth-child(3) .red {
   color: var(--Bright-Red);
 }
 main section .card .year {
-  font-size: 43px;
+  font-size: 53px;
 }
 main .overview {
   width: 100%;
-  padding: 41px 150px 41px 150px;
+  padding: 3px 150px 17px 150px;
   font-size: 23px;
 }
 main .dashboard .twitter {
@@ -156,7 +156,7 @@ main .dashboard .twitter {
 main .dashboard .instagram {
   width: 100%;
   border-color: var(--Instagram);
-  border-top-width: 5px;
+  border-top-width: 3px;
   border-top-style: solid;
 }
 main .dashboard .youtube {
@@ -169,7 +169,7 @@ main .dashboard2 .card2 {
   flex-direction: column;
   background-color: var(--Dark-Desaturated-Blue-Card-BG);
   padding: 20px;
-  gap: 55px;
+  gap: 25px;
 }
 main .dashboard2 .card2 div:first-child {
   display: flex;

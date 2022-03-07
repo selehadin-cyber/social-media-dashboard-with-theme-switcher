@@ -92,13 +92,13 @@ main {
         grid-template-columns: 1fr 1fr 1fr 1fr;
         gap: 23px;
         width: 100%;
-        padding: 41px 150px 41px 150px;
+        padding: 3px 150px 41px 150px;
         .card  {
             background-color: var(--Dark-Desaturated-Blue-Card-BG);
             @include flexCenter(column);
             gap: 20px;
-            padding: 10px;
-            border-top-width: 5px;
+            padding: 20px;
+            border-top-width: 3px;
             border-top-style: solid;
             border-color: var(--Facebook);
             width: 100%;
@@ -125,13 +125,13 @@ main {
                 }
             }
             .year {
-                font-size: 43px;
+                font-size: 53px;
             }
         }
     }
     .overview {
         width: 100%;
-        padding: 41px 150px 41px 150px;
+        padding: 3px 150px 17px 150px;
         font-size: 23px;
     }
     .dashboard .twitter {
@@ -140,7 +140,7 @@ main {
     .dashboard .instagram {
         width: 100%;
         border-color: var(--Instagram);
-        border-top-width: 5px;
+        border-top-width: 3px;
         border-top-style: solid;
         
     }
@@ -152,7 +152,7 @@ main {
             @include flexCenter(column);
             background-color: var(--Dark-Desaturated-Blue-Card-BG);
             padding: 20px;
-            gap: 55px;
+            gap: 25px;
             div:first-child {
                 @include flexCenter(row);
                 width: 100%;
