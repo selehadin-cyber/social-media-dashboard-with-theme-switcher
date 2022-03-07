@@ -5,7 +5,7 @@
   --Bright-Red: hsl(356, 69%, 56%);
   --Facebook: hsl(208, 92%, 53%);
   --Twitter: hsl(203, 89%, 53%);
-  --Instagram: linear gradient hsl(37, 97%, 70%) to hsl(329, 70%, 58%);
+  --Instagram: linear-gradient(to left,hsl(37, 97%, 70%),hsl(329, 70%, 58%));
   --YouTube: hsl(348, 97%, 39%);
   --Toggle: linear-gradient(to right,hsl(210, 78%, 56%),hsl(146, 68%, 55%));
   /*dark theme*/
@@ -149,6 +149,18 @@ main .overview {
   width: 100%;
   padding: 41px 150px 41px 150px;
   font-size: 23px;
+}
+main .dashboard .twitter {
+  border-color: var(--Twitter);
+}
+main .dashboard .instagram {
+  width: 100%;
+  border-color: var(--Instagram);
+  border-top-width: 5px;
+  border-top-style: solid;
+}
+main .dashboard .youtube {
+  border-color: var(--YouTube);
 }
 main .dashboard2 .card2 {
   display: flex;
