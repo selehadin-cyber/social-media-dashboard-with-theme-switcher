@@ -158,9 +158,10 @@ main .dashboard .twitter {
 }
 main .dashboard .instagram {
   width: 100%;
-  border-color: var(--Instagram);
   border-top-width: 3px;
   border-top-style: solid;
+  -o-border-image: var(--Instagram) 100% 0 0 0;
+     border-image: var(--Instagram) 100% 0 0 0;
 }
 main .dashboard .youtube {
   border-color: var(--YouTube);
