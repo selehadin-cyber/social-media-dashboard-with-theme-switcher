@@ -102,6 +102,9 @@ main {
             border-top-style: solid;
             border-color: var(--Facebook);
             width: 100%;
+            & > div:nth-child(1) > div:nth-child(2) {
+                color: rgb(139, 151, 198);
+            }
             &:hover {
                 background-color: #333a56;
             }
@@ -128,6 +131,7 @@ main {
             }
             .year {
                 font-size: 53px;
+                font-weight: bold;
             }
         }
     }

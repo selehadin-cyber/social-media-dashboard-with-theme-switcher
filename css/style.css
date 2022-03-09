@@ -112,6 +112,9 @@ main section .card {
   border-color: var(--Facebook);
   width: 100%;
 }
+main section .card > div:nth-child(1) > div:nth-child(2) {
+  color: #8b97c6;
+}
 main section .card:hover {
   background-color: #333a56;
 }
@@ -147,6 +150,7 @@ main section .card div:nth-child(3) .red {
 }
 main section .card .year {
   font-size: 53px;
+  font-weight: bold;
 }
 main .overview {
   width: 100%;
