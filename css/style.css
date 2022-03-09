@@ -112,6 +112,9 @@ main section .card {
   border-color: var(--Facebook);
   width: 100%;
 }
+main section .card:hover {
+  background-color: #333a56;
+}
 main section .card div:first-child {
   display: flex;
   justify-content: center;
@@ -170,6 +173,9 @@ main .dashboard2 .card2 {
   background-color: var(--Dark-Desaturated-Blue-Card-BG);
   padding: 20px;
   gap: 25px;
+}
+main .dashboard2 .card2:hover {
+  background-color: #333a56;
 }
 main .dashboard2 .card2 div:first-child {
   display: flex;
